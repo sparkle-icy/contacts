@@ -1,0 +1,83 @@
+/* Import Bubblegum Sans from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&display=swap');
+
+body {
+    font-family: 'Bubblegum Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* Light background */
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.contact-container {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.contact-info {
+    font-size: 1.1em;
+    margin-bottom: 30px;
+}
+
+.social-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+}
+
+.button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 30px; /* Rounded buttons */
+    color: white;
+    text-decoration: none;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 250px; /* Adjust button width */
+}
+
+.button i {
+    margin-right: 10px;
+    font-size: 1.2em;
+}
+
+.discord {
+    background-color: #7289da; /* Discord color */
+}
+
+.discord:hover {
+    background-color: #677bc8;
+}
+
+.github {
+    background-color: #333; /* GitHub color */
+}
+
+.github:hover {
+    background-color: #222;
+}
+
+.twitter {
+    background-color: #1da1f2; /* X (Twitter) color */
+}
+
+.twitter:hover {
+    background-color: #0c85d0;
+}
