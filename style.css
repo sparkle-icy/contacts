@@ -5,7 +5,10 @@ body {
     font-family: 'Bubblegum Sans', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4; /* Light background */
+    background-image: url('https://t3.ftcdn.net/jpg/09/66/23/64/360_F_966236495_R6syeanZtoq1Lvr31MYXpgYkOO9RlbyS.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     color: #333;
     display: flex;
     justify-content: center;
@@ -51,6 +54,7 @@ h1 {
     cursor: pointer;
     transition: background-color 0.3s ease;
     width: 250px; /* Adjust button width */
+    font-family: 'Bubblegum Sans', sans-serif; /* Apply Bubblegum Sans to buttons */
 }
 
 .button i {
@@ -72,4 +76,12 @@ h1 {
 
 .github:hover {
     background-color: #222;
+}
+
+.x-twitter {
+    background-color: #000; /* Black color for X */
+}
+
+.x-twitter:hover {
+    background-color: #111;
 }
